@@ -1,2 +1,2 @@
-# TCSRNet
-A Flexible Stereo Matching Network Based on Temporal Context and Stacked Recursive Structure
+# RENet
+A Flexible Recursive Network for Stereo Matching Based on Residual Estimation
