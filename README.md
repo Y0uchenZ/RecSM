@@ -1,2 +1,2 @@
-# RENet
-A Flexible Recursive Network for Stereo Matching Based on Residual Estimation
+# RecSM
+A Flexible Recursive Network for Video Stereo Matching Based on Residual Estimation
