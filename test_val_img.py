@@ -51,7 +51,7 @@ TestImgLoader = torch.utils.data.DataLoader(
     DA.myImageFloder(test_left_img, test_right_img, test_disp_pre, test_disp, False),
     batch_size=1, shuffle=False, num_workers=1, drop_last=False)
 
-model = TCRSNet3(args.maxdisp)
+model = RecSM(args.maxdisp)
 
 if args.cuda:
     model = nn.DataParallel(model)
